@@ -1,0 +1,11 @@
+.container {
+  width: 70%;
+  border: 2px dashed darkgoldenrod;
+  padding: 2rem;
+}
+#formGroup {
+  margin-top: 1rem;
+}
+/* .btn {
+  margin-top: 1rem;
+} */

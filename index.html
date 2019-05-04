@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>BookList App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+</head>
+
+<body>
+  <div class="container mt-4">
+    <h1 class="display-4 text-center"> <i class="fas fa-book-open text-primary"></i> Fav.<span
+        class="text-primary">Book</span>List</h1>
+
+    <!-- insert alert message here -->
+
+    <form action="#" id="bookForm">
+      <div id="formGroup">
+        <label for="title">Title</label>
+        <input type="text" id="title" class="form-control">
+      </div>
+      <div id="formGroup">
+        <label for="author">Author</label>
+        <input type="text" id="author" class="form-control">
+      </div>
+      <div id="formGroup">
+        <label for="isbn">ISBN</label>
+        <input type="text" id="isbn" class="form-control">
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block mt-3">Add a Book</button>
+    </form>
+
+    <table class="table table-striped mt-5">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="bookList">
+
+      </tbody>
+    </table>
+
+  </div>
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
